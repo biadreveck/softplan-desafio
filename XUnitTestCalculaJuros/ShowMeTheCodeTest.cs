@@ -1,7 +1,7 @@
 ﻿using CalculaJuros.Controllers;
 using Xunit;
 
-namespace XUnitTestCalculaJuros
+namespace CalculaJuros.UnitTests
 {
     public class ShowMeTheCodeTest
     {
@@ -10,8 +10,8 @@ namespace XUnitTestCalculaJuros
         {
             ShowMeTheCodeController controller = new ShowMeTheCodeController();
 
-            string juros = controller.Get();
-            Assert.Equal("https://github.com/biadreveck/softplan-desafio", juros);
+            string url = controller.Get();
+            Assert.Equal("https://github.com/biadreveck/softplan-desafio", url);
         }
     }
 }

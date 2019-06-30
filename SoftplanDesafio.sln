@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APITaxaJuros", "APITaxaJuro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculaJuros", "CalculaJuros\CalculaJuros.csproj", "{24BA4A44-D778-477A-B662-31989D760EA7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestTaxaJuros", "XUnitTestTaxaJuros\XUnitTestTaxaJuros.csproj", "{383AEE4F-D669-4E5B-AFFC-F05BAEEBBA75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APITaxaJuros.UnitTests", "XUnitTestTaxaJuros\APITaxaJuros.UnitTests.csproj", "{383AEE4F-D669-4E5B-AFFC-F05BAEEBBA75}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestCalculaJuros", "XUnitTestCalculaJuros\XUnitTestCalculaJuros.csproj", "{151115BE-6120-4BF3-A211-363A8CD9E833}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculaJuros.UnitTests", "XUnitTestCalculaJuros\CalculaJuros.UnitTests.csproj", "{151115BE-6120-4BF3-A211-363A8CD9E833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITaxaJuros.IntegrationTests", "APITaxaJuros.IntegrationTests\APITaxaJuros.IntegrationTests.csproj", "{D5E62F67-1FA9-43F9-A0F6-36F58BB70399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculaJuros.IntegrationTests", "CalculaJuros.IntegrationTests\CalculaJuros.IntegrationTests.csproj", "{949A8E2D-615E-4B46-88DF-C083EDB4092C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{151115BE-6120-4BF3-A211-363A8CD9E833}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{151115BE-6120-4BF3-A211-363A8CD9E833}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{151115BE-6120-4BF3-A211-363A8CD9E833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E62F67-1FA9-43F9-A0F6-36F58BB70399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E62F67-1FA9-43F9-A0F6-36F58BB70399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E62F67-1FA9-43F9-A0F6-36F58BB70399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E62F67-1FA9-43F9-A0F6-36F58BB70399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949A8E2D-615E-4B46-88DF-C083EDB4092C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949A8E2D-615E-4B46-88DF-C083EDB4092C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949A8E2D-615E-4B46-88DF-C083EDB4092C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949A8E2D-615E-4B46-88DF-C083EDB4092C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

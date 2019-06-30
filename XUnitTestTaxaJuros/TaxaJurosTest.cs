@@ -1,7 +1,7 @@
 using APITaxaJuros.Controllers;
 using Xunit;
 
-namespace XUnitTestTaxaJuros
+namespace APITaxaJuros.UnitTests
 {
     public class TaxaJurosTest
     {

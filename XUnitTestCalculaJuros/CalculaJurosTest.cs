@@ -1,7 +1,7 @@
 using CalculaJuros.Controllers;
 using Xunit;
 
-namespace XUnitTestCalculaJuros
+namespace CalculaJuros.UnitTests
 {
     public class CalculaJurosTest
     {
