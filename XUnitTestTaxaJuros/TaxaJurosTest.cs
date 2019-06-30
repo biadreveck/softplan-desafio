@@ -1,5 +1,4 @@
 using APITaxaJuros.Controllers;
-using System;
 using Xunit;
 
 namespace XUnitTestTaxaJuros
