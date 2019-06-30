@@ -7,8 +7,8 @@ Este projeto é a implementação de duas API's REST para o desafio .NET da Soft
 * Linguagem: C# / .NET Core
 * Gerenciamento de dependências: NuGet
 * Hospedagem: Azure
-** API 1: [Taxa de Juros](https://apitaxajuros20190629055121.azurewebsites.net/)
-** API 2: [Cálculo de Juros](https://calculajuros20190629060702.azurewebsites.net/)
+	* API 1: [Taxa de Juros](https://apitaxajuros20190629055121.azurewebsites.net/)
+	* API 2: [Cálculo de Juros](https://calculajuros20190629060702.azurewebsites.net/)
 * Outras: Docker e Swagger
 
 ## O desafio
